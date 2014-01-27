@@ -5,22 +5,23 @@ sinaip
 使用方法
 ------
 数据已经全部用json格式化好了。
-结构如下
-class sinaip {
-    long start_ip;
-    long end_ip;
-    long point;
-    String country;
-    String province;
-    String city;
-    String area;
-    String ispType;
-    String desc;
-    String lat;
-    String lnt;
-}
 其中 start_ip和end_ip都是以IP2Long形式展现，建议使用二分查找查找范围即可
 
+数据结构
+------
+    public class sinaip {
+        long start_ip;
+        long end_ip;
+        long point;
+        String country;
+        String province;
+        String city;
+        String area;
+        String ispType;
+        String desc;
+        String lat;
+        String lnt;
+    }
 
 Sample.java
 ------
